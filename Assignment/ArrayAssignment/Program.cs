@@ -10,6 +10,14 @@ namespace ArrayAssignment
     {
         static void Main(string[] args)
         {
+            int[] num = new int[7];
+            int sum = 0;
+            foreach (var value in num)
+            {
+                int item = int.Parse(Console.ReadLine());
+                sum += item;
+            }
+            Console.WriteLine(sum);
         }
     }
 }
