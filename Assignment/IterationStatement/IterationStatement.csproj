@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>IterationStatement.WhileStatement</StartupObject>
+    <StartupObject>IterationStatement.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
