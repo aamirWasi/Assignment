@@ -10,8 +10,12 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
-            //write program for test program from github
-            //Okay now pull it in vs
+            var user = new User();
+            if( user.Status==RegistrationStatus.Active && 
+                user.Type == UserType.Admin)
+            {
+                Console.WriteLine("Login in successfully...");
+            }
         }
     }
 }
