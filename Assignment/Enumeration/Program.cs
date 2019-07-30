@@ -17,6 +17,7 @@ namespace Enumeration
     {
         static void Main(string[] args)
         {
+            Animate(AnimateDirection.Down);
             var user = new User();
             if (user.Status == RegistrationStatus.Active &&
                 user.Type == UserType.Admin)
