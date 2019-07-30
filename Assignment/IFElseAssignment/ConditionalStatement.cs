@@ -1,4 +1,5 @@
-﻿namespace IFElseAssignment
+﻿using System;
+namespace IFElseAssignment
 {
     public class ConditionalStatement
     {
@@ -6,7 +7,15 @@
         {
             bool isGoldCustomer = true;
             float price = (isGoldCustomer) ? 19.90f : 30.80f;
-            System.Console.WriteLine($"price : {price.ToString("c")}");
+            Console.WriteLine($"price : {price.ToString("c")}");
+
+            //Using ifelse statement
+
+            bool goldCustomer = true;
+            if (goldCustomer)
+                Console.WriteLine($"price : 19.90");
+            else
+                Console.WriteLine("price : 35.50");
         }
 
     }
