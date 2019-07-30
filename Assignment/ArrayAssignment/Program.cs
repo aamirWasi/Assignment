@@ -18,6 +18,16 @@ namespace ArrayAssignment
                 sum += item;
             }
             Console.WriteLine(sum);
+
+            var names = new string[] {
+                "aamir",
+                "wasi",
+                "rohan"
+            };
+            foreach (var name in names)
+            {
+                Console.WriteLine(name);
+            }
         }
     }
 }
