@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace IterationStatement
 {
-    
     class Program
     {
         static void Main(string[] args)
