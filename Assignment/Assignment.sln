@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFElseAssignment", "IFElseA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwithStatementAssignment", "SwithStatementAssignment\SwithStatementAssignment.csproj", "{A882DD59-23EF-4935-B014-CAE7BC986E52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterationStatement", "IterationStatement\IterationStatement.csproj", "{84D17B74-3532-438D-B946-9A959C3C6324}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{A882DD59-23EF-4935-B014-CAE7BC986E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A882DD59-23EF-4935-B014-CAE7BC986E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A882DD59-23EF-4935-B014-CAE7BC986E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84D17B74-3532-438D-B946-9A959C3C6324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84D17B74-3532-438D-B946-9A959C3C6324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84D17B74-3532-438D-B946-9A959C3C6324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84D17B74-3532-438D-B946-9A959C3C6324}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
