@@ -11,7 +11,7 @@ namespace SwithStatementAssignment
         static void Main(string[] args)
         {
             var season = new FavouriteSeason();
-            season.GetFavouriteSeason(Season.Winter);
+            season.GetFavouriteSeason(Season.LateAutumn);
         }
     }
 }

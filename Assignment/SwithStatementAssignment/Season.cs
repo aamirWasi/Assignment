@@ -3,8 +3,9 @@
     public enum Season
     {
         Autumn,
+        LateAutumn,
         Winter,
         Summer,
-        Spring
+        Spring,
     }
 }
