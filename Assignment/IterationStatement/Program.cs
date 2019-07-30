@@ -13,7 +13,7 @@ namespace IterationStatement
             //Guessing Number game with While statement starts
 
             Console.WriteLine("I want you to think of a number between 0 to 100.Ok?");
-            var guessingChoice = Console.ReadLine();
+            Console.ReadLine();
             int max = 100;
             int guesses = 0;
             int guessMin = 0;
@@ -27,7 +27,7 @@ namespace IterationStatement
                 if (response?.ToLower().FirstOrDefault() == 'y')
                 {
                     max = guessMax;
-                    guessMax = guessMax - (guessMax - guessMin) / 2;
+                    guessMax -= (guessMax - guessMin) / 2;
                 }
                 else
                 {
