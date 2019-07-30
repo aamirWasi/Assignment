@@ -26,14 +26,14 @@ namespace IterationStatement
                 var response = Console.ReadLine();
                 if (response?.ToLower().FirstOrDefault() == 'y')
                 {
-                    max = guessMax;
-                    guessMax -= (guessMax - guessMin) / 2;
+                    max = guessMax;//50
+                    guessMax -= (guessMax - guessMin) / 2;//25
                 }
                 else
                 {
-                    guessMin = guessMax + 1;
-                    var reminingDifference = max - guessMax;
-                    guessMax += (int)Math.Ceiling(reminingDifference / 2f);
+                    guessMin = guessMax + 1;//51
+                    var reminingDifference = max - guessMax;//50
+                    guessMax += (int)Math.Ceiling(reminingDifference / 2f);//75
                 }
                 if (guessMin + 1 == max)
                 {
