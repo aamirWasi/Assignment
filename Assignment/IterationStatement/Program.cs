@@ -12,12 +12,12 @@ namespace IterationStatement
         {
             for (int i = 1; i < 10; i++)
             {
-                PrintEvenNumber(i);
+                //PrintEvenNumber(i);
             }
             //reverse order 
             for (int i = 10; i>=1; i--)
             {
-                PrintEvenNumber(i);
+                //PrintEvenNumber(i);
             }
         }
         static void PrintEvenNumber(int i)
