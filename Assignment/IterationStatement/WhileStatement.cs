@@ -9,9 +9,15 @@ namespace IterationStatement
             {
                 Console.WriteLine("Enter your name ");
                 var input = Console.ReadLine();
-                if (string.IsNullOrWhiteSpace(input))
-                    break;
-                Console.WriteLine($"My Name is : {input}");
+                //if (string.IsNullOrWhiteSpace(input))
+                //    break;
+                //Console.WriteLine($"My Name is : {input}");
+                if (!string.IsNullOrWhiteSpace(input))
+                {
+                    Console.WriteLine($"My Name is  : {input}");
+                    continue;
+                }
+                break;
             }
         }
     }
