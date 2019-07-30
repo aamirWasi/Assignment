@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{6A78A2FB-4067-46F2-8720-265420DC6A4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumeration", "Enumeration\Enumeration.csproj", "{A02A47FE-AB9F-4FF1-B116-F0075003B48E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6A78A2FB-4067-46F2-8720-265420DC6A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A78A2FB-4067-46F2-8720-265420DC6A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A78A2FB-4067-46F2-8720-265420DC6A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A02A47FE-AB9F-4FF1-B116-F0075003B48E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A02A47FE-AB9F-4FF1-B116-F0075003B48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02A47FE-AB9F-4FF1-B116-F0075003B48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A02A47FE-AB9F-4FF1-B116-F0075003B48E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
