@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{84D17B74-3532-438D-B946-9A959C3C6324}</ProjectGuid>
+    <ProjectGuid>{8073285F-796F-437F-BF20-BE3821C0C83E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>IterationStatement</RootNamespace>
-    <AssemblyName>IterationStatement</AssemblyName>
+    <RootNamespace>Classes</RootNamespace>
+    <AssemblyName>Classes</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>IterationStatement.BreakContinueStatement</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,10 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BreakContinueStatement.cs" />
+    <Compile Include="NumberGuess.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WhileStatement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

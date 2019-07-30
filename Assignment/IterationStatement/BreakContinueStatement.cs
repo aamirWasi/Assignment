@@ -5,6 +5,13 @@ namespace IterationStatement
     {
         static void Main()
         {
+            var passwordLength = 10;
+            var random = new Random();
+            var buffer = new char[passwordLength];
+            for (var i = 0; i < passwordLength; i++)
+                buffer[i]=(char)('a' + random.Next(0, 26));
+            var password = new string(buffer);
+            Console.WriteLine(password);
             //Continue statement
             for (int i = 1; i < 10; i++)
             {
