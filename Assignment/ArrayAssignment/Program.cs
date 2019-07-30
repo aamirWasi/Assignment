@@ -6,10 +6,20 @@ using System.Threading.Tasks;
 
 namespace ArrayAssignment
 {
+
     class Program
     {
         static void Main(string[] args)
         {
+            var weapons = new Weapon[]
+            {
+                new MachineGun(),
+                new Missle()
+            };
+            foreach (var weapon in weapons)
+            {
+                weapon.Fire();
+            }
             int[] num = new int[7];
             int sum = 0;
             foreach (var value in num)
