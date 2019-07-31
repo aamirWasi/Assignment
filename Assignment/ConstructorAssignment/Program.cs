@@ -12,6 +12,10 @@ namespace ConstructorAssignment
             var person = new Person(1,"aamir");
             Console.WriteLine(person.ID);
             Console.WriteLine(person.Name);
+
+            //ConstructorWithInheritance
+
+            var car = new Car("aamir123");
         }
     }
 }
