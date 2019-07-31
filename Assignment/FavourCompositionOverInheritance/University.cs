@@ -32,6 +32,16 @@ namespace FavourCompositionOverInheritance
                 };
                 Departments.Add(computer);
             }
+            else if (dept == Dept.Biz)
+            {
+                var biz = new BizDepartment
+                {
+                    DeptName = name,
+                    DepartmentHeadName = headName,
+                    Sessions = number
+                };
+                Departments.Add(biz);
+            }
         }
     }
 }
