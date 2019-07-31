@@ -10,7 +10,7 @@ namespace PropertiesAssignment
     {
         static void Main(string[] args)
         {
-            var person = new Person(new DateTime(1996, 2, 3),Cities.chittagong,true,"Bangladesh");
+            var person = new Person(new DateTime(1996, 2, 3),Cities.chittagong,true);
             Console.WriteLine(person.Age);
             if(person.Status==true)
                 Console.WriteLine("Customer status : Active");

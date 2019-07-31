@@ -8,12 +8,11 @@ namespace PropertiesAssignment
         bool _status;
 
         public DateTime BirthDate { get; private set; }
-        public Person(DateTime birthDate,Cities city,bool status,string country)
+        public Person(DateTime birthDate,Cities city,bool status)
         {
             BirthDate = birthDate;
             _city = city;
             _status = status;
-            Country = country;
         }
         public bool Status
         {
@@ -48,6 +47,6 @@ namespace PropertiesAssignment
                 return timeSpan.Days/365;
             }
         }
-        public string Country { get;}
+        public string Country { get; } = "Bangladesh";
     }
 }
