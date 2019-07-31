@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Classes.Calculator</StartupObject>
+    <StartupObject>Classes.Person</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
