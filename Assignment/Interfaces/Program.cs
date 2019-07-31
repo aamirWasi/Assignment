@@ -10,6 +10,13 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
+            var order = new Order
+            {
+                TotalPrice = 20f,
+                DatePlaced = DateTime.Now
+            };
+            var orderProcssor = new OrderProcessor(new ShippingCalculator());
+            orderProcssor.Process(order);
             var user = new User
             {
                 Status = RegistrationStatus.Active,
