@@ -10,7 +10,13 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
-            
+            var user = new User
+            {
+                Status = RegistrationStatus.Active,
+                Type=UserType.Admin
+            };
+            if (user.Type==UserType.Admin && user.Status==RegistrationStatus.Active)
+                Console.WriteLine("Login Successfull...");
         }
     }
 }
