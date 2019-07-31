@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterationStatement", "Itera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{8073285F-796F-437F-BF20-BE3821C0C83E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorAssignment", "ConstructorAssignment\ConstructorAssignment.csproj", "{76AEC3BB-4EF3-49DF-808B-4D469EE97F69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{8073285F-796F-437F-BF20-BE3821C0C83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8073285F-796F-437F-BF20-BE3821C0C83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8073285F-796F-437F-BF20-BE3821C0C83E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76AEC3BB-4EF3-49DF-808B-4D469EE97F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76AEC3BB-4EF3-49DF-808B-4D469EE97F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76AEC3BB-4EF3-49DF-808B-4D469EE97F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76AEC3BB-4EF3-49DF-808B-4D469EE97F69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
