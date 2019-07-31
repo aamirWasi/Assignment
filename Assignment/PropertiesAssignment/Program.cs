@@ -8,7 +8,11 @@ namespace PropertiesAssignment
 {
     public class Person
     {
-        public DateTime BirthDate { get; set; }
+        public DateTime BirthDate { get; private set; }
+        public Person(DateTime birthDate)
+        {
+            BirthDate = birthDate;
+        }
         public int Age
         {
             get
@@ -22,10 +26,7 @@ namespace PropertiesAssignment
     {
         static void Main(string[] args)
         {
-            var person = new Person
-            {
-                BirthDate = new DateTime(1996, 2, 3)
-            };
+            var person = new Person(new DateTime(1996, 2, 3));
             Console.WriteLine(person.Age);
         }
     }
