@@ -1,67 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace InheritanceAssignment
 {
-    public class WorkFlowEngine
-    {
-        private List<WorkFlowEngine> _activities;
-
-        public WorkFlowEngine()
-        {
-            _activities = new List<WorkFlowEngine>();
-        }
-        public void AddActivities(WorkFlowEngine activity)
-        {
-            _activities.Add(activity);
-        }
-        public void Run()
-        {
-            foreach (var act in _activities)
-            {
-                act.Execute();
-            }
-        }
-        public virtual void Execute()
-        {
-
-        }
-    }
-    public class ProcessingVideo : WorkFlowEngine
-    {
-        public override void Execute()
-        {
-            Console.WriteLine("Executing call for ProcessingVideo service...");
-        }
-    }
-    public class WebService : WorkFlowEngine
-    {
-        public override void Execute()
-        {
-            System.Console.WriteLine("Executing call for web service...");
-        }
-    }
-    public class SendMail : WorkFlowEngine
-    {
-        public override void Execute()
-        {
-            var numofMails = 0;
-            System.Console.WriteLine("How many mails do you want to send ?");
-            numofMails = int.Parse(Console.ReadLine());
-            System.Console.WriteLine($"Executing call for sending mail...{numofMails}");
-        }
-    }
-    public class UploadVideo : WorkFlowEngine
-    {
-        public override void Execute()
-        {
-            Console.WriteLine("Executing for uploading video");
-        }
-    }
-
     class Program
     {
         static void Main(string[] args)
@@ -79,6 +21,18 @@ namespace InheritanceAssignment
             workEngine.AddActivities(new ProcessingVideo());
 
             workEngine.Run();
+
+
+            //comes from InheritanceViaInterface folder in same project
+            System.Console.WriteLine("------------------------------------------------");
+            System.Console.WriteLine("comes from InheritanceViaInterface folder in same project");
+            var workflowEngine = new WorkFlowEngine();
+            workflowEngine.AddActivities(new SendMail());
+            workflowEngine.AddActivities(new UploadVideo());
+            workflowEngine.AddActivities(new ProcessingVideo());
+            workflowEngine.AddActivities(new WebService());
+
+            workflowEngine.Run();
         }
     }
 }

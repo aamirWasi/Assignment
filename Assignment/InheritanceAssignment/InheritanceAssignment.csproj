@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>InheritanceAssignment.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,10 +46,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InheritanceViaInterface\IActivity.cs" />
+    <Compile Include="InheritanceViaInterface\ProcessingVideo.cs" />
+    <Compile Include="InheritanceViaInterface\SendMail.cs" />
+    <Compile Include="InheritanceViaInterface\UploadVideo.cs" />
+    <Compile Include="InheritanceViaInterface\WebService.cs" />
+    <Compile Include="InheritanceViaInterface\WorkFlowEngine.cs" />
     <Compile Include="PresentationObject.cs" />
+    <Compile Include="ProcessingVideo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SendMail.cs" />
     <Compile Include="Text.cs" />
+    <Compile Include="UploadVideo.cs" />
+    <Compile Include="WebService.cs" />
+    <Compile Include="WorkFlowEngine.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
