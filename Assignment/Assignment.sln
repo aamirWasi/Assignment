@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassAssignment", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringAssignment", "StringAssignment\StringAssignment.csproj", "{01CE9B7C-AB76-40A5-A1FE-CDB356F2D434}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousTypes", "AnonymousTypes\AnonymousTypes.csproj", "{BEFD8A57-2BB2-40F5-9F12-41859EA03E58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{01CE9B7C-AB76-40A5-A1FE-CDB356F2D434}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01CE9B7C-AB76-40A5-A1FE-CDB356F2D434}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01CE9B7C-AB76-40A5-A1FE-CDB356F2D434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEFD8A57-2BB2-40F5-9F12-41859EA03E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEFD8A57-2BB2-40F5-9F12-41859EA03E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEFD8A57-2BB2-40F5-9F12-41859EA03E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEFD8A57-2BB2-40F5-9F12-41859EA03E58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
