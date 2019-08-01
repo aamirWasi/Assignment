@@ -30,6 +30,13 @@ namespace InheritanceAssignment
 
         }
     }
+    public class ProcessingVideo : WorkFlowEngine
+    {
+        public override void Execute()
+        {
+            Console.WriteLine("Executing call for ProcessingVideo service...");
+        }
+    }
     public class WebService : WorkFlowEngine
     {
         public override void Execute()
@@ -69,6 +76,7 @@ namespace InheritanceAssignment
             workEngine.AddActivities(new SendMail());
             workEngine.AddActivities(new WebService());
             workEngine.AddActivities(new UploadVideo());
+            workEngine.AddActivities(new ProcessingVideo());
 
             workEngine.Run();
         }
