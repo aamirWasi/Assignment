@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace StringAssignment
 {
@@ -13,7 +14,32 @@ namespace StringAssignment
             var something1 = "Something";
             var something2 = "Something";
 
-            #region string compare
+            Console.WriteLine(something1+something2);
+
+            #region TimePerforming between string & stringBuilder...
+
+            var str = string.Empty;
+            var stopWatchStr = new Stopwatch();
+            stopWatchStr.Start();
+            for (int i = 0; i < 100000; i++)
+            {
+                str+= i;
+            }
+            stopWatchStr.Stop();
+
+            var sb = new StringBuilder();
+            var stopWatchSb = new Stopwatch();
+            stopWatchSb.Start();
+            for (int i = 0; i < 100000; i++)
+            {
+                sb.Append(i);
+            }
+            stopWatchSb.Stop();
+            Console.WriteLine($"Time taking for string is {stopWatchStr.ElapsedMilliseconds}");
+            Console.WriteLine($"Time taking for string Builder is {stopWatchSb.ElapsedMilliseconds}");
+            #endregion
+
+            #region string compare...
             if (something1.Equals(something2, StringComparison.CurrentCulture))
             {
                 Console.WriteLine("Both are same");
@@ -33,20 +59,20 @@ namespace StringAssignment
 
             #endregion
 
-            #region Lower&&Substring
+            #region Lower&&Substring...
 
             Console.WriteLine();
             var subStringSomething1 = something1.Substring(0, 4).ToLower();
             Console.WriteLine(subStringSomething1);
             #endregion
 
-            #region Upper
+            #region Upper...
             var subStringSomething2 = something2.Substring(0, 4).ToUpper();
             Console.WriteLine(subStringSomething2);
             #endregion
 
 
-            #region stringEmpty
+            #region stringEmpty...
             string sampleEmptyString = string.Empty;
             if(string.IsNullOrWhiteSpace(sampleEmptyString))
                 Console.WriteLine("string is empty...");
@@ -54,19 +80,19 @@ namespace StringAssignment
                 Console.WriteLine("string is not empty...");
             #endregion
 
-            #region Trim
+            #region Trim...
             var sampleTrim = "   sampleTrim  ";
             Console.WriteLine(sampleTrim.Trim());
             #endregion
 
-            #region Replace
+            #region Replace...
 
             var stringReplace = "somestring";
             Console.WriteLine(stringReplace.Replace("some","apple"));
 
             #endregion
 
-            #region Split
+            #region Split...
             var sampleWords = "some1,some2,some3,some4,some5";
             var words = sampleWords.Split(',');
             foreach (var word in words)
@@ -75,7 +101,7 @@ namespace StringAssignment
             }
             #endregion
 
-            #region join
+            #region join...
 
             var stringJoin = string.Join(",", words);
             Console.WriteLine(stringJoin);
