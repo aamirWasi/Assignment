@@ -6,23 +6,15 @@ using System.Threading.Tasks;
 
 namespace StringAssignment
 {
-    public class Person
-    {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-    }
     class Program
     {
         static void Main(string[] args)
         {
-            var user = new Person
+            var something1 = "Something";
+            var something2 = "Something";
+            if (something1.Equals(something2, StringComparison.CurrentCulture))
             {
-                FirstName = "aamir",
-                LastName = "wasi"
-            };
-            if (user.FirstName == user.LastName)
-            {
-                Console.WriteLine("Both strings are same");
+                Console.WriteLine("Both are same");
             }
             else
             {
