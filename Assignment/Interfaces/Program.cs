@@ -11,7 +11,8 @@ namespace Interfaces
         static void Main(string[] args)
         {
             //OCP
-            var dbMigrator = new DbMigrator(new ConsoleLogger());
+            //var dbMigrator = new DbMigrator(new ConsoleLogger());
+            var dbMigrator = new DbMigrator(new FileLogger(@"C:\Study\file.txt"));
             dbMigrator.Migrate();
 
             //OrderProcessor
