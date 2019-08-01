@@ -9,14 +9,19 @@ namespace AnonymousTypes
     public delegate string GreetingDelegate(string name);
     class Program
     {
-        static string Greetings(string name)
-        {
-            return $"Hello {name} a very good morning...";
-        }
+        //static string Greetings(string name)
+        //{
+        //    return $"Hello {name} a very good morning...";
+        //}
         static void Main(string[] args)
         {
-            var obj = new GreetingDelegate(Greetings);
-            Console.WriteLine(obj("aamir"));
+            //var obj = new GreetingDelegate(Greetings);
+            //Console.WriteLine(obj("aamir"));
+            GreetingDelegate obj = delegate(string name)
+            {
+                return $"Hello {name} a very good morning...";
+            };
+            Console.WriteLine(obj("aamirwasi"));
         }
     }
 }
