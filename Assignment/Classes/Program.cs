@@ -65,11 +65,11 @@ namespace Classes
     {
         static void Main(string[] args)
         {
-            //var numberGuess = new NumberGuess();
-            //numberGuess.InformUser();
-            //numberGuess.DiscoverNumber();
-            //numberGuess.Announceresult();
-            //SRP implementations
+            var numberGuess = new NumberGuess();
+            numberGuess.InformUser();
+            numberGuess.DiscoverNumber();
+            numberGuess.Announceresult();
+            SRP implementations
 
             StandardMessages.WelcomeMessage();
             var user = PersondataCapture.Capture();
