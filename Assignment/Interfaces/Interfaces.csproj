@@ -47,7 +47,10 @@
     <Compile Include="DbMigrator.cs" />
     <Compile Include="FileLogger.cs" />
     <Compile Include="ILogger.cs" />
+    <Compile Include="INotificationChannel.cs" />
     <Compile Include="IShippingCalculator.cs" />
+    <Compile Include="MailNotificationChannel.cs" />
+    <Compile Include="Message.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="OrderProcessor.cs" />
     <Compile Include="Program.cs" />
@@ -55,8 +58,10 @@
     <Compile Include="RegistrationStatus.cs" />
     <Compile Include="Shipment.cs" />
     <Compile Include="ShippingCalculator.cs" />
+    <Compile Include="SmsNotificationChannel.cs" />
     <Compile Include="User.cs" />
     <Compile Include="UserType.cs" />
+    <Compile Include="VideoEncoder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

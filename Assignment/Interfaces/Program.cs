@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,6 +9,15 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
+
+            //InterfaceViaPolymorphism
+
+            var videoEncoder = new VideoEncoder();
+            videoEncoder.RegisterNotificationChannel(new MailNotificationChannel());
+            videoEncoder.RegisterNotificationChannel(new SmsNotificationChannel());
+            videoEncoder.Encode();
+
+
             //OCP
             //var dbMigrator = new DbMigrator(new ConsoleLogger());
             var dbMigrator = new DbMigrator(new FileLogger(@"C:\Study\file.txt"));
