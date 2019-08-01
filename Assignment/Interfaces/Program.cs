@@ -10,6 +10,11 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
+            //OCP
+            var dbMigrator = new DbMigrator(new ConsoleLogger());
+            dbMigrator.Migrate();
+
+            //OrderProcessor
             var order = new Order
             {
                 TotalPrice = 20f,

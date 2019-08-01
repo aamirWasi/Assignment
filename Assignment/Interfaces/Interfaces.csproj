@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleLogger.cs" />
+    <Compile Include="DbMigrator.cs" />
+    <Compile Include="ILogger.cs" />
     <Compile Include="IShippingCalculator.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="OrderProcessor.cs" />
