@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FavourCompositionOverInheri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassAssignment", "AbstractClassAssignment\AbstractClassAssignment.csproj", "{0263FB83-DD1C-41DF-B73C-02AABE9FD20F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringAssignment", "StringAssignment\StringAssignment.csproj", "{01CE9B7C-AB76-40A5-A1FE-CDB356F2D434}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{0263FB83-DD1C-41DF-B73C-02AABE9FD20F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0263FB83-DD1C-41DF-B73C-02AABE9FD20F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0263FB83-DD1C-41DF-B73C-02AABE9FD20F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CE9B7C-AB76-40A5-A1FE-CDB356F2D434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CE9B7C-AB76-40A5-A1FE-CDB356F2D434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CE9B7C-AB76-40A5-A1FE-CDB356F2D434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CE9B7C-AB76-40A5-A1FE-CDB356F2D434}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
