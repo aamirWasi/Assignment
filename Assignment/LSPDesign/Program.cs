@@ -57,6 +57,7 @@ namespace LSPDesign
     {
         
     }
+    //I understood LSP Properly
     class Program
     {
         static void Main(string[] args)
