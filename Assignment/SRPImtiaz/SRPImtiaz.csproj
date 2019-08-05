@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{10DC1CBB-15AB-4DC0-9D0B-566C00801C9B}</ProjectGuid>
+    <ProjectGuid>{8071DEA1-E6CA-4036-8604-889C4F64AB69}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DCP13Banglawash</RootNamespace>
-    <AssemblyName>DCP13Banglawash</AssemblyName>
+    <RootNamespace>SRPImtiaz</RootNamespace>
+    <AssemblyName>SRPImtiaz</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>DCP13Banglawash.BanglaWash</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BanglaWash.cs" />
-    <Compile Include="ListStringEOF.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

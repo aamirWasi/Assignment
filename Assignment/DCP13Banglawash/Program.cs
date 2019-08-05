@@ -28,32 +28,22 @@ namespace DCP13Banglawash
                     t4 = double.Parse(arr[3]);
                     sumBangla = t1 + t2;
                     sumPak = t3 + t4;
-                    Console.WriteLine(sumBangla);
-                    Console.WriteLine(sumPak);
+                    //Console.WriteLine(sumBangla);
+                    //Console.WriteLine(sumPak);
                 }
                 pakTotal += sumPak;
                 banglaTotal += sumBangla;
                 Console.WriteLine(banglaTotal);
                 Console.WriteLine(pakTotal);
-                if (banglaTotal < pakTotal || banglaTotal == pakTotal)
+                if (banglaTotal <= pakTotal /*|| banglaTotal == pakTotal*/)
                 {
                     Console.WriteLine("Miss");
                 }
                 else
                 {
-                    Console.WriteLine("banglawash");
+                    Console.WriteLine("Banglawash");
                 }
             }
-            //Console.WriteLine(banglaTotal);
-            //Console.WriteLine(pakTotal);
-            //if (banglaTotal < pakTotal || banglaTotal == pakTotal)
-            //{
-            //    Console.WriteLine("Miss");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("banglawash");
-            //}
         }
     }
 }
